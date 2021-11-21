@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sapi.com.learningrxjava">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".subjects.Subjects"></activity>
+        <activity android:name=".operators.SkipLastOperator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".introduction.CompositeDisposableSample" />
+        <activity android:name=".introduction.DisposableObserversSample" />
+        <activity android:name=".introduction.DisposableSample" />
+        <activity android:name=".introduction.SchedulerSample" />
+        <activity android:name=".introduction.EffectiveWay" />
+        <activity android:name=".operators.FromOperator" />
+        <activity android:name=".operators.RangeOperator" />
+        <activity android:name=".operators.CreateOperator" />
+        <activity android:name=".operators.MapOperator" />
+        <activity android:name=".operators.FlatMapOperator" />
+        <activity android:name=".operators.BufferOperator" />
+        <activity android:name=".operators.ConcatmapOperator" />
+        <activity android:name=".operators.FilterOperator" />
+        <activity android:name=".operators.DistinctOperator" /> <!-- <activity android:name=".operators.SkipLastOperator"/> -->
+        <activity android:name=".operators.SkipOperator" />
+    </application>
+
+</manifest>
